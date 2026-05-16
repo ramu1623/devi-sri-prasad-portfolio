@@ -1,0 +1,70 @@
+.education {
+  padding: 80px 10%;
+}
+
+.education-container {
+  text-align: center;
+}
+
+.subtitle {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education-container h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.edu-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+  position: relative;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+/* TEXT */
+.edu-card h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.edu-card p {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.edu-card span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* SCORE BADGE */
+.edu-score {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #2563eb;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
