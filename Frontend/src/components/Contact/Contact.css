@@ -107,13 +107,34 @@
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
+  .contact {
+    padding: 60px 20px;
+  }
+
   .contact-content {
     flex-direction: column;
+    gap: 30px;
   }
 
   .contact-info {
     justify-content: flex-start;
     gap: 20px;
+    padding: 20px;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .contact-item {
+    font-size: 1rem;
   }
 }
 

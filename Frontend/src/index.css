@@ -13,6 +13,7 @@ body {
   background: #fbfbfd;
   color: #333;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* Container spacing (optional helper) */
@@ -72,4 +73,5 @@ a {
 /* Scroll behavior */
 html {
   scroll-behavior: smooth;
-}
+  overflow-x: hidden;
+}
